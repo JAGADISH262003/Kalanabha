@@ -25,8 +25,8 @@ This project is an end-to-end system for translating and lip-syncing videos from
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/video-translation-lipsync.git
-   cd video-translation-lipsync
+   git clone https://github.com/JAGADISH262003/Kalanabha.git
+   cd kalanabha1
    ```
 
 2. Install the required packages:
