@@ -96,6 +96,6 @@ Distributed under the Apache-2.0 License. See `LICENSE` for more information.](h
 
 ## Contact
 
-Jagadish Itikala - i.jagadish@outlook.com
-Parasara Bandaru -
-Krishna Vamshi Yechuri - 
+-Jagadish Itikala - i.jagadish@outlook.com
+-Parasara Bandaru -
+-Krishna Vamshi Yechuri - krishnavamshiyechuri@gmail.com
