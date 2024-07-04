@@ -85,7 +85,7 @@ Contributions to improve the project are welcome. Please follow these steps:
 
 ## License[
 
-Distributed under the Apache-2.0 License. See `LICENSE` for more information.](http://www.apache.org/licenses/LICENSE-2.0)
+Distributed under the Apache-2.0 License. See `LICENSE` for more information.(http://www.apache.org/licenses/LICENSE-2.0)
 
 ## Acknowledgments
 
@@ -96,6 +96,6 @@ Distributed under the Apache-2.0 License. See `LICENSE` for more information.](h
 
 ## Contact
 
-Jagadish Itikala - i.jagadish@outlook.com,
-Parasara Bandaru -,
-Krishna Vamshi Yechuri - krishnavamshiyechuri@gmail.com.
+Jagadish Itikala -  i.jagadish@outlook.com,                                                                                                                                                                  
+Parasara Bandaru -  parasarabhandaru@gmail.com,                                                                                                                                                              
+Krishna Vamshi Yechuri -  krishnavamshiyechuri@gmail.com.
