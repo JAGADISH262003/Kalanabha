@@ -93,6 +93,12 @@ Distributed under the Apache-2.0 License. See `LICENSE` for more information.(ht
 - Google for the Translate API
 - Coqui for the TTS system
 - The creators of Video Retalking and Wav2Lip
+  
+## Contributions 
+
+Hello My dear fellow developers, would like to invite the new upgradations for this project with the help of GitHub opensource community, if any one intrested they can do pull request. 
+
+ThankYou,we hope for the best 
 
 ## Contact
 
