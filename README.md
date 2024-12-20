@@ -1,107 +1,92 @@
-# Kalanabha Project
+# 🚀 **AI Lip Sync Tool** 🔥
 
-This project is an end-to-end system for translating and lip-syncing videos from one language to another. It combines state-of-the-art AI models for speech recognition, translation, text-to-speech synthesis, and lip-sync generation.
+Transform your videos effortlessly with **state-of-the-art AI-powered lip-syncing** in multiple languages! Whether for fun, education, or professional projects, the **AI Lip Sync Tool** brings your videos to life like never before. 🎥✨
 
-## Features
+---
 
-- Video input via file upload or YouTube URL
-- Automatic speech recognition using OpenAI's Whisper
-- Text translation using Google Translate API
-- Text-to-speech synthesis with voice cloning capabilities using Coqui TTS
-- Two lip-sync options:
-  - High-quality lip-sync using Video Retalking
-  - Normal-quality lip-sync using Wav2Lip
-- Support for multiple languages
-- Optional video resizing for optimal processing
+## 🎨 **Key Features**
 
-## Prerequisites
+- 🎙 **Automatic Speech Recognition**
+   - Powered by OpenAI's **Whisper** for **accurate and robust speech-to-text** conversion.
+- 🌐 **Multi-Language Text Translation**
+   - Seamlessly translate your content using the **Google Translate API**.
+- 🗣 **Natural Text-to-Speech Synthesis**
+   - Achieve human-like speech with **Coqui TTS**.
+- 🎥 **Advanced Lip Syncing**
+   - Perfectly synced videos using cutting-edge tools like **Wav2Lip** and **Video Retalking**.
+- 🌟 **User-Friendly Interface**
+   - Effortlessly navigate the tool through an intuitive **Streamlit-based web interface**.
 
-- Python 3.7+
-- CUDA-compatible GPU (for faster processing)
-- FFmpeg
-- Git
+---
 
-## Installation
+## 🚀 **Quick Start**
 
-1. Clone the repository:
+### **Prerequisites**
+- Python 3.8+
+
+### **Installation**
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/JAGADISH262003/AI-Lip-Sync-Tool.git
+   cd AI-Lip-Sync-Tool
    ```
-   git clone https://github.com/JAGADISH262003/Kalanabha.git
-   cd kalanabha1
-   ```
 
-2. Install the required packages:
-   ```
+2. **Install Dependencies**:
+   ```bash
    pip install -r requirements.txt
+   pip install -U TTS numpy yt-dlp aksharamukha googletrans==4.0.0-rc1 git+https://github.com/openai/whisper.git ffmpeg-python streamlit
    ```
 
-3. Install additional dependencies:
-   ```
-   pip install git+https://github.com/openai/whisper.git
-   pip install TTS
-   pip install youtube-dl
-   pip install aksharamukha
+3. **Run the Application**:
+   ```bash
+   streamlit run app.py
    ```
 
-4. Download the necessary model checkpoints (run the provided scripts in the notebook).
+4. **Open in Your Browser**:
+   Navigate to **[http://localhost:8501](http://localhost:8501)** to access the sleek web interface.
 
-## Usage
+---
 
-1. Open the Jupyter notebook `kalanabha1.ipynb`.
+## 🎬 **How to Use**
+1. **Upload a Video** or provide a **YouTube link**.
+2. Select the **target language** for translation and speech synthesis.
+3. Choose the **lip-sync quality**: **Normal** or **High Quality**.
+4. Click **"Start Processing"** and let the magic happen! ✨
 
-2. Run the cells in order, following the instructions for each step.
+---
 
-3. When prompted, upload your video file or provide a YouTube URL.
+## 🌟 **Example**
+🎥 Here's a sneak peek of what you can achieve with the **AI Lip Sync Tool**:
 
-4. Choose your target language and lip-sync quality option.
+> "Bring any video to life with synchronized lips and natural speech in just a few clicks! 🌍"
 
-5. Wait for the processing to complete. The final video will be available for download.
+---
 
-## Components
+## 🛠 **Contributing**
+We ❤️ contributions! Check out our **[Contributing Guide](CONTRIBUTING.md)** to get started.
 
-- **Video Processing**: FFmpeg
-- **Speech Recognition**: OpenAI's Whisper
-- **Translation**: Google Translate API
-- **Text-to-Speech**: Coqui TTS (XTTS v2 model)
-- **Lip-Sync**: 
-  - High Quality: Video Retalking
-  - Normal Quality: Wav2Lip
+---
 
-## Limitations
+## 📜 **License**
+This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
 
-- Processing time can be lengthy for longer videos.
-- Lip-sync quality may vary depending on the input video quality and face angles.
-- Translation accuracy depends on the Google Translate API.
-- The system may struggle with heavily accented speech or poor audio quality.
+---
 
-## Contributing
+## 🙏 **Acknowledgments**
+Special thanks to:
+- **OpenAI** for Whisper 🔍
+- **Coqui** for TTS 🗣️
+- **Contributors** of **Wav2Lip** and **Video Retalking** 💡
 
-Contributions to improve the project are welcome. Please follow these steps:
+---
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
+## 📞 **Contact Us**
+For questions, suggestions, or collaborations, reach out to the maintainers:
 
-## License[
+- **Jagadish Itikala** - [i.jagadish@outlook.com](mailto:i.jagadish@outlook.com)
+- **Parasara Bandaru** - [parasarabhandaru@gmail.com](mailto:parasarabhandaru@gmail.com)
+- **Krishna Vamshi Yechuri** - [krishnavamshiyechuri@gmail.com](mailto:krishnavamshiyechuri@gmail.com)
 
-Distributed under the Apache-2.0 License. See `LICENSE` for more information.(http://www.apache.org/licenses/LICENSE-2.0)
+---
 
-## Acknowledgments
-
-- OpenAI for the Whisper ASR system
-- Google for the Translate API
-- Coqui for the TTS system
-- The creators of Video Retalking and Wav2Lip
-  
-## Contributions 
-
-Hello My dear fellow developers, would like to invite the new upgradations for this project with the help of GitHub opensource community, if any one intrested they can do pull request. 
-
-ThankYou,we hope for the best 
-
-## Contact
-
-Jagadish Itikala -  i.jagadish@outlook.com,                                                                                                                                                                  
-Parasara Bandaru -  parasarabhandaru@gmail.com,                                                                                                                                                              
-Krishna Vamshi Yechuri -  krishnavamshiyechuri@gmail.com.
+### 🚀 **Unlock the Power of AI Lip Sync! Make Every Video Speak Perfectly!** 🎯
