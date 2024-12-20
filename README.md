@@ -68,7 +68,7 @@ We ❤️ contributions! Check out our **[Contributing Guide](CONTRIBUTING.md)**
 ---
 
 ## 📜 **License**
-This project is licensed under the **MIT License**. See the [LICENSE](LICENSE) file for more details.
+This project is licensed under the **Apache License Version 2.0, January 2004**. See the [LICENSE](LICENSE) file for more details.
 
 ---
 
