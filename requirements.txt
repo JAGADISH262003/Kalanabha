@@ -1,0 +1,52 @@
+# Core application dependencies
+streamlit
+openai-whisper
+googletrans==4.0.0-rc1
+TTS
+torch
+torchvision # Often a companion to torch, good to have.
+torchaudio # For audio operations, often used with torch.
+youtube-dl # For video_processing:download_youtube_video
+yt-dlp # More up-to-date than youtube-dl, good to switch if video_processing is updated
+ffmpeg-python # For video_processing:extract_audio and resize_video
+numpy>=1.23.5,<=1.24.0 # Trying to find a compatible range. Wav2lip used 1.23.4, notebook had 1.24.0.
+scipy # Dependency for Whisper, Wav2Lip, etc.
+pandas # Whisper dependency
+tqdm # Whisper, Wav2Lip dependency
+requests # TTS dependency for model downloads (if not local)
+
+# Lip Sync - Wav2Lip specific (from notebook cell 24 & typical Wav2Lip reqs)
+# Assuming Wav2Lip itself is in vendor/Wav2Lip and user installs its specific reqs there or we list critical ones here.
+librosa # For audio processing in Wav2Lip
+opencv-python # For video processing in Wav2Lip
+numba # For performance in Wav2Lip/librosa
+
+# Lip Sync - Video-Retalking specific (from notebook cell 20 & Video-Retalking reqs)
+# Assuming Video-Retalking itself is in vendor/video-retalking.
+# Its requirements.txt is extensive. Listing some key direct ones.
+# Users will be guided to install from its own requirements file.
+basicsr==1.4.2 # Specific version from Video-Retalking setup
+face-alignment # For Video-Retalking
+gfpgan # For Video-Retalking (face enhancement)
+facexlib # Dependency for gfpgan
+# kornia # From Video-Retalking requirements
+# ninja # From Video-Retalking requirements (build tool)
+# einops # From Video-Retalking requirements (tensor operations)
+# onnxruntime
+# onnx
+
+# Utilities
+aksharamukha # For Indic language support if TTS needs it (from notebook)
+
+# Notes:
+# 1. The user will be guided to install dependencies for Wav2Lip and Video-Retalking
+#    from their respective repositories cloned into the 'vendor/' directory.
+#    This file lists common/critical ones or ones mentioned in the notebook directly.
+# 2. dlib is a common dependency for face_alignment (used by Video-Retalking) and sometimes Wav2Lip.
+#    It often requires system-level dependencies (like cmake, boost) and is best installed
+#    separately or via conda if issues arise with pip.
+# 3. PyTorch version: Ensure compatibility with CUDA if GPU is used.
+#    The notebook used default torch, which is fine for CPU. For GPU, specific versions might be needed.
+#    (e.g., torch==1.13.1+cu117 torchvision==0.14.1+cu117 torchaudio==0.13.1 --extra-index-url https://download.pytorch.org/whl/cu117)
+#    For now, keeping it simple with 'torch'.
+# 4. TTS models might also have their own specific dependencies, usually handled by the TTS library itself.
